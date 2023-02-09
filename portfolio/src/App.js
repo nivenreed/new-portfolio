@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <main>
+        <section className=" h-screen">
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1>Nick Niven Reed</h1>
+            <ul>
+              <li>
+                <BsFillMoonStarsFill />
+              </li>
+              <li>
+                <a href=" ">linkdIn</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </main>
     </div>
   );
 }
